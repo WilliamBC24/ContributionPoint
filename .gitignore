@@ -1,0 +1,33 @@
+# === Build ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === Java ===
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# === VS Code (in case you open it there) ===
+.vscode/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Archives (don’t commit packaged outputs) ===
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
